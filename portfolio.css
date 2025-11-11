@@ -1,0 +1,300 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+    width: 1000px;
+    height: auto;
+    margin: auto;
+
+}
+
+
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: gray;
+    width: 100%;
+    margin: auto;
+
+
+
+}
+
+.Name {
+
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    padding: 15px;
+    color: lightgray;
+}
+
+
+.nav_links {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin-right: 200px;
+    list-style-type: none;
+}
+
+a:link {
+    color: rgb(5, 5, 5);
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.intro {
+
+    background: gray;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.img {
+
+    border-radius: 50%;
+
+
+}
+
+.intro1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.intro2 {
+    margin-left: 170px;
+
+
+}
+
+.subhan {
+
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Hire {
+
+    background-color: darkgray;
+    width: 200px;
+    height: 30px;
+}
+
+.Hire:hover {
+
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.skills {
+    margin-top: 20px;
+    background-color: gray;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.skillheading {
+    margin-left: 20px;
+    ;
+}
+
+
+.skill {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: space-around;
+
+
+}
+
+.skill1 {
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+}
+
+.skill2 {
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+}
+
+.skill3 {
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+}
+
+.skill4 {
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+}
+
+.skill5 {
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+}
+
+.skill1:hover,
+.skill2:hover,
+.skill3:hover,
+.skill4:hover,
+.skill5:hover {
+    background-color: darkgray;
+    cursor: pointer;
+}
+
+.project {
+
+    background-color: gray;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px
+}
+
+.projects {
+
+    background-color: gray;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.projectheading {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-top: 20px;
+}
+
+.project1 {
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 200px;
+}
+
+.project2 {
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 200px;
+}
+
+.project3 {
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 200px;
+}
+
+.project1:hover,
+.project2:hover,
+.project3:hover {
+    background-color: darkgray;
+    cursor: pointer;
+}
+
+.contact {
+    background-color: gray;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.cheading {
+    margin-left: 20px;
+}
+.input1,
+.input2,
+.input3 {
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+    display: block;
+}
+
+.input1:focus,
+.input2:focus,
+.input3:focus {
+    outline: none;
+    box-shadow: 0 0 5px lightgray;
+}
+.send{
+    background-color: darkgray;
+    width: 320px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.send:hover{
+    background-color: lightgray;
+}
+.footerdiv {
+    background-color: rgb(219, 210, 210);
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 350px;
+}
+.Follow{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 150px;
+    background-color:rgb(219, 210, 210) ;
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+   
+}
+.followheading {
+    margin-bottom: 10px;
+}
+
+.socialmedia {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+

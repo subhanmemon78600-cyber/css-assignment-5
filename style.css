@@ -1,0 +1,173 @@
+body {
+
+    background-image: url(https://img.freepik.com/premium-vector/geometric-gradient-technology-background_23-2149110132.jpg?semt=ais_hybrid&w=740&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+
+.signup-form {
+    background-color: rgba(0, 0, 0, 0.6);
+    display: inline-block;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.signup1,
+.signup2,
+.signup3,
+.signup4,
+.signup5,
+.signup6 {
+    display: block;
+    width: 250px;
+    padding: 10px;
+    margin: 10px auto;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+
+
+}
+
+.btn-signup {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.btn-signup:hover {
+    background-color: #45a049;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.signup1 {
+
+    background-image: url(https://cdn-icons-png.flaticon.com/512/1077/1077114.png);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: left 10px center;
+    padding-left: 40px;
+
+
+}
+
+.signup2 {
+
+    background-image: url(https://cdn-icons-png.flaticon.com/512/1077/1077114.png);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: left 10px center;
+    padding-left: 40px;
+
+}
+
+.signup3 {
+
+    background-image: url(https://cdn-icons-png.flaticon.com/512/597/597177.png);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: left 10px center;
+    padding-left: 40px;
+
+}
+.signup4 {
+
+    background-image: url(https://cdn-icons-png.flaticon.com/512/561/561127.png);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: left 10px center;
+    padding-left: 40px;
+
+}
+.signup5 {
+
+    background-image: url(https://cdn-icons-png.flaticon.com/512/3064/3064155.png);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: left 10px center;
+    padding-left: 40px;
+
+}
+.signup6 {
+
+    background-image: url(https://cdn-icons-png.flaticon.com/512/3064/3064155.png);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: left 10px center;
+    padding-left: 40px;
+
+}
+
+/* login-form  */
+
+.login-form {
+    background-color: rgba(0, 0, 0, 0.6);
+    display: inline-block;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-top: 150px;
+}
+.login1,
+.login2 {
+    display: block;
+    width: 250px;
+    padding: 10px;
+    margin: 10px auto;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.btn-login {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.btn-login:hover {
+    background-color: #45a049;
+}
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.login1 {
+    background-image: url(https://cdn-icons-png.flaticon.com/512/561/561127.png);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: left 10px center;
+    padding-left: 40px;
+}
+.login2 {
+    background-image: url(https://cdn-icons-png.flaticon.com/512/3064/3064155.png);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: left 10px center;
+    padding-left: 40px;
+}
+/* portfolio css */
